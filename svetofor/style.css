@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.container{
+    background-color: #2c3e50;
+    height: 200px;
+    width: 70px;
+    border-radius: 50px;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-direction: column;
+}
+.circle{
+    background-color: rgba(0,0,0,0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.circle.red{
+    background-color: brown;
+    box-shadow:0 0 25px brown;
+}.circle.yelloow{
+    background-color: #a6a638;
+    box-shadow:0 0 25px #e5e541;
+}.circle.green{
+    background-color: green;
+    box-shadow:0 0 25px green;
+}

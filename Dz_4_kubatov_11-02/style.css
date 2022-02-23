@@ -1,0 +1,10 @@
+* {
+    background-color: #b5aeae;
+    box-sizing: border-box;
+    font-size: 20px;
+   flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}

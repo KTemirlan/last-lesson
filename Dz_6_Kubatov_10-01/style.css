@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.background{
+    height: 100vh;
+
+}
+.content {
+    margin: 0 110px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.counter_block {
+    width: 495px;
+    height: 70vh;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.45);
+}
+
+button {
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    background: lightslategrey;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.numbers  {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.numbers a{
+    width: 32%;
+    height: 37px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.reset {
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    font-family: monospace;
+    text-decoration: none;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.numbers a:hover {
+    background: #01151c;
+    color: red;
+}
+.reset:hover {
+    background: #01151c;
+    color: red;
+}
